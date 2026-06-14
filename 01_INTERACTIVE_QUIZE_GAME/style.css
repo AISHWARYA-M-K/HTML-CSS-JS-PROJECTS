@@ -114,7 +114,7 @@ body{
     margin-bottom: 20px;
 }
 
-progress{
+.progress{
     height: 100%;
     background-color:#da7b0e;
     transition: width 0.3s ease;

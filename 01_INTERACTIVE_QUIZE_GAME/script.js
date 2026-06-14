@@ -11,7 +11,7 @@ const scoreSpan = document.getElementById("score");
 const finalScoreSpan = document.getElementById("final-score");
 const maxScoreSpan = document.getElementById("max-score");
 const resultMessage = document.getElementById("result-message");
-const restartButton = document.getElementById("restart-btn");
+const restartButton = document.getElementById("restart");
 const progressBar = document.getElementById("progress");
 
 const quizQuestions = [
@@ -94,8 +94,8 @@ function showQuestion() {
 
   currentQuestionSpan.textContent = currentQuestionIndex + 1;
 
-  // const progressPercent = (currentQuestionIndex / quizQuestions.length) * 100;
-  // progressBar.style.width = progressPercent + "%";
+  const progressPercent = (currentQuestionIndex / quizQuestions.length) * 100;
+  progressBar.style.width = progressPercent + "%";
 
   questionText.textContent = currentQuestion.question;
 
