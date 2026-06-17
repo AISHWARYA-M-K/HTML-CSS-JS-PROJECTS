@@ -121,7 +121,7 @@ body{
     margin-bottom: 20px;
 }
 
-#result-screen h2{
+.result-screen h2{
     color:#DE3E3E;
     margin-bottom: 20px;
     font-size: 2rem;
